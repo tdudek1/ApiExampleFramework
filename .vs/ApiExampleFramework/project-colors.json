@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e33f4ff5-9413-4301-9b5a-24a95966ba93": {
+      "ProjectGuid": "e33f4ff5-9413-4301-9b5a-24a95966ba93",
+      "DisplayName": "ApiExampleFramework",
+      "ColorIndex": 0
+    },
+    "99429800-fc88-4ef1-ac94-829843964735": {
+      "ProjectGuid": "99429800-fc88-4ef1-ac94-829843964735",
+      "DisplayName": "ApiExampleFramework.Tests",
+      "ColorIndex": 1
+    },
+    "44dad939-ecb4-44e4-aa69-4371ad9376bb": {
+      "ProjectGuid": "44dad939-ecb4-44e4-aa69-4371ad9376bb",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
