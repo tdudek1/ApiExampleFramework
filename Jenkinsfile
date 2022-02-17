@@ -1,5 +1,5 @@
 pipeline { 
-        agent windows  
+        agent {label 'windows'}  
 
 
     options {
@@ -7,12 +7,10 @@ pipeline {
     }
     stages {
         stage('Build & Test') { 
-            stages {
-                stage('Build') {
-                    steps{
-                        sh 'msbuild .' 
-                    }
+            stage('Build') {
+                steps{
+                    sh 'msbuild .' 
                 }
-        }
+            }            
     }
 }
