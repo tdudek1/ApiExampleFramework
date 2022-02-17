@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps{
-                bat 'msbuild -t:restore .'
+                bat 'msbuild -t:restore ApiExampleFramework.sln'
                 bat 'msbuild .' 
             }
         }            
