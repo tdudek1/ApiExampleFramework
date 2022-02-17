@@ -6,12 +6,10 @@ pipeline {
         skipStagesAfterUnstable()
     }
     stages {
-        stage('Build & Test') { 
-            stage('Build') {
-                steps{
-                    sh 'msbuild .' 
-                }
-            }            
-        }
+        stage('Build') {
+            steps{
+                bat 'msbuild .' 
+            }
+        }            
     }
 }
